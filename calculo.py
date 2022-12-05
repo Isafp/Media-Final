@@ -5,8 +5,8 @@ def cal(y):
   return 120 - y
   
   def main():
-  st.title("Média Final")
-  st.write("Calculadora simples")
+  #st.title("Média Final")
+  #st.write("Calculadora simples")
   y = st.number_input("Digite sua nota MI")
   
   operation = st.selectbox("Selecione uma operação", ["Calcular"])
