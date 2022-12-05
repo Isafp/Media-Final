@@ -1,17 +1,17 @@
 import streamlit as st
 
 
-def cal(y):
-  return 120 - y
-  
+y=int(input("Digite sua nota MI: "))
+f = 120-y
+
   def main():
-  #st.title("Média Final")
-  #st.write("Calculadora simples")
-  y = st.number_input("Digite sua nota MI")
-  
+  st.title("Média Final")
+  st.write("Calculadora simples")
+    
   operation = st.selectbox("Selecione uma operação", ["Calcular"])
-  if operation == "Calcular":
-    st.write(cal(y))
+ if operation == "Calcular":
+
+    print("Você precisa tirar no mínimo "+ str(f))
     
   else:
     st.write("0000")
